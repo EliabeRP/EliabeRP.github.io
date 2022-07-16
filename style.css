@@ -2,6 +2,7 @@ body {
     background-color: #32373B;
     color: white;
     font-family: sans-serif;
+    padding: 3%;
     
 }
 
@@ -13,6 +14,22 @@ a {
 
 #nome {
     font-size: 20px;
+    text-align: center;
+}
+
+#foto{
+    float: left;
+    padding: 10px;
+    background-color: #3a4c5a;
+    position: absolute;
+    z-index: 1;
+}
+
+#descricao{
+    position: absolute;
+    top: 35%;
+    right: 30%;
+    left: 30%;
 }
 
 .infos{
@@ -30,4 +47,14 @@ a {
 }
 .pBasico {
     font-size: 16px;
+}
+
+.image-container{
+    height: 250px;
+    position: relative;
+}
+
+
+ul li:nth-child(odd){
+    font-style: italic;
 }
